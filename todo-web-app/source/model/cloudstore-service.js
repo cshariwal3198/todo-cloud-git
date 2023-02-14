@@ -17,6 +17,7 @@ export function cloudStore(){
                 method : method,
                 body : JSON.stringify(body),
                 headers: header,
+                name : "chetan",
             }
         },
 
