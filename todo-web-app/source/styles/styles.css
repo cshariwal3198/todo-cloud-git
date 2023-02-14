@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+body,html {
+    height: 100%;
+}
+#logo {
+    color: white;
+    position: relative;
+    top: 10px;
+    background-color: black;
+    box-shadow: 10px 0px 10px 10px rgb(160, 209, 211);
+}
+form input[type="text"] {
+    font-size: x-large;
+    font-weight: 400;
+    font-family: cursive;
+    background-color: rgb(202, 224, 224);
+    background-image: url("https://images.unsplash.com/photo-1507090960745-b32f65d3113a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fGhvcml6b250YWwlMjB3YWxscGFwZXJ8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60");
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-size: 130px;
+}
+.div-to-display {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.div-to-display p {
+    width: 33%;
+    height: 36px;
+    margin: 6px;
+    margin-top: 15px;
+    margin-right: 100px;
+    margin-left: 100px;
+    text-align: center;
+    font-style: italic;
+    font-size: larger;
+    font-weight: 500;
+    border-radius: 8px;
+    background-color: rgb(245, 250, 228);
+}
+.div-to-display p button {
+    border: 0ch;
+    color: black;
+    padding-left: 8px;
+    padding-right: 8px;
+    font-style: oblique;
+    font-weight: 400;
+    background-color: rgb(66, 141, 252);
+    border-radius: 5px;
+    margin: 2px;
+    float: right;
+    margin-top: 5px;
+    margin-right: 3px;
+}
+.div-to-display p>span{
+    width: 100%;
+}
+.edit-div{
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    color: white;
+}
+.clear-div{
+    position: fixed;
+    bottom: 15px;
+    right: 15px; 
+}
+.clear-div button{
+    width: 100px;
+    border-radius: 8px;
+    border-top: 0ch;
+    border-left: 0px;
+}
+.clear-div button:hover{
+    background-color: rgb(250, 11, 11);
+    color: white;
+}
+input[type = "checkbox"]{
+    margin-left: 10px;
+    transform: scale(1.2);
+}
+.getDiv{
+    position: absolute;
+    bottom: 50px;
+    left: 15px;
+    color: white;
+}
+input[type = "number"]{
+    width: 70px;
+}
+.store-div{
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    color: white;
+}
