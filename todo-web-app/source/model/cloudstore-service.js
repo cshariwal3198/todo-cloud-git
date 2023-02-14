@@ -12,12 +12,10 @@ let {OptionObject, setTodoCloud} = cloudStore()
 export function cloudStore(){
     return {
         OptionObject : function(method,body,header){
-            
             return {
                 method : method,
                 body : JSON.stringify(body),
                 headers: header,
-                name : "chetan",
             }
         },
 
